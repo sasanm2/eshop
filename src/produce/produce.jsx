@@ -8,6 +8,7 @@ const Produce = (props) => {
     </div>
     <img src={props.src}/>
     <h2 className="h2">{props.price}</h2>
+    <div className="rating">{Array(props.rating).fill().map((_,i)=><p>⭐</p>)}</div>
     <button className="btn-basket">اضافه کردن به سبد</button>
     </div> 
     );

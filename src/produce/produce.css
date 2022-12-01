@@ -10,6 +10,11 @@
     border-radius: 10px;
     box-shadow: 3px 3px 8px gray;
 }
+.rating{
+    display: flex;
+    position: absolute;
+    bottom: 58px;
+}
 
 .btn-basket{
     position: relative;
