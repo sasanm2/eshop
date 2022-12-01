@@ -14,7 +14,7 @@ return(
     </div>
     <div className="line3">
     <span className="first-line"><img src={require("../img/icons8-shopping-cart-40.png")}/></span>
-    <span className="secend-line">0</span>
+    <span className="secend-line basket-Count">0</span>
     </div>
     </nav>
     </>

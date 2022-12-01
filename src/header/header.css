@@ -1,7 +1,7 @@
 .header {
   display: flex;
   flex-direction: row !important;
-  position: relative;
+  position: fixed;
   width: 1560px;
   margin-top: -10px;
   margin-left: -10px;
