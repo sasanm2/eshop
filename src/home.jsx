@@ -6,7 +6,7 @@ const Home = () => {
 return(
     <>
     <Header/>
-    <img src={require('./img/eshop.png')} className='img'/>
+    <img src={require('./img/eshop.png')} className='img-2'/>
     <div className="row">
         <Produce title="قوزک بند ادور مدل Elastic Ligament سایز بزرگ" price="تومان 101,000" src={require("./img/1.png")} rating={2}/>
         <Produce title="جاکلیدی طرح بچه گربه" price="تومان 14,000" src={require("./img/2.png")} rating={4}/>

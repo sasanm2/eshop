@@ -16,7 +16,6 @@ function Subtotal() {
         value={0}
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"تومان"}
     />
     </>
   )

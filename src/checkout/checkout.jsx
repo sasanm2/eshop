@@ -14,6 +14,7 @@ const Checkout = () => {
             </div>
             <div className="right">
                 <Subtotal />
+                <button className="btn-order">تایید نهایی</button>
             </div>
         </div>
         </div>
