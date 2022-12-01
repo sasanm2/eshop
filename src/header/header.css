@@ -8,4 +8,5 @@
   height: 80px;
   background-color: black;
   color: aliceblue;
+  z-index: 7;
 }

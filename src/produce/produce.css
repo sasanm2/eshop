@@ -1,0 +1,27 @@
+.produce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    width: 700px;
+    height: 300px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray;
+}
+
+.btn-basket{
+    position: relative;
+    margin-top: 30px;
+    margin-left: -270px;
+    border-radius: 5px;
+    background-color: rgb(24, 185, 191);
+    font-weight: 800;
+    outline: none;
+    border: 1px;
+    box-shadow: .8px .8px 1px gray;
+}
+.btn-basket:hover{
+    transform: scale(.95);
+}
