@@ -17,7 +17,7 @@ return(
         <Produce title="هندزفری بلوتوثی مدل  inpods 12" price="تومان 115,000" src={require("./img/5.png")} rating={4}/>
     </div>
     <div className="row">
-        <Produce title="زعفران سحرخیز - 4.608 گرم" price="255,000" src={require("./img/6.png")} rating={2}/>
+        <Produce title="زعفران سحرخیز - 4.608 گرم" price="255,000 تومان" src={require("./img/6.png")} rating={2}/>
     </div>
     </>
 )
