@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: row !important;
+  position: relative;
+  width: 1560px;
+  margin-top: -10px;
+  margin-left: -10px;
+  height: 80px;
+  background-color: black;
+  color: aliceblue;
+}
