@@ -1,15 +1,32 @@
 import './CheckoutProduce.css';
+import { StateContext } from "../stateprovider";
+import { useContext } from "react";
 
 function CheckoutProduce(props) {
+  const context = useContext(StateContext);
+  const con = context.state;
+  const con1 = context.setState;
+  const con2 = con.basket;
+  
+  const removeFromBasket = ()=>{
+      con1({
+       basket : con2.filter(i=>i.id !== i.id ),
+        })
+    };
+
+
+
   return (
     <div className="checkout-produce">
     <img src={props.src} className='img'/>
     <div className="checkout-info">
-        <p className='p'>ghhjkku</p>
-        <h2 className="h2">{"110,000 "}تومان</h2>
+        <p className='checkout-p'>{props.title}</p>
+        <h2 className="checkout-h2">{props.price}تومان</h2>
     </div>
-    <div className="chechout-rating">{Array(props.rating).fill().map((_,i)=><p>⭐</p>)}</div>
-    <button className="btn">حذف کردن به سبد</button>
+    <div className='container-btn'>
+    <div className="chechout-rating">{Array(props.rating).fill().map((_,i,id)=><p key={id}>⭐</p>)}</div>
+    <button className="btn" onClick={removeFromBasket}>حذف کردن به سبد</button>
+    </div>
     </div>
   )
 }

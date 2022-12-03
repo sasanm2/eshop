@@ -1,39 +1,62 @@
 .checkout-produce{
     display: flex;
-    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    width: 800px;
     height: 150px;
     flex-direction: row;
     margin-left: 30px;
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 10px;
     box-shadow: 3px 3px 1px gray;
     background-color: rgb(251, 255, 255) !important;
     align-items: center;
 }
-.checkout-produce .p{
-    margin-left: 30px;
-    font-weight: 600;
-    font-size: large;
-}
-.chechout-rating{
-    position: relative;
-    margin-left: -100px;
-}
 
 .img{
     width: 100px;
-    height: 100px;
+    height: 150px;
+    margin-left: 10px;
 }
 
 .checkout-info{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-items: right;
+    width: 500px;
+    height:150px;
+    margin-left: 100px;
+}
+
+.checkout-p{
+    
+    font-size: large;
+    font-weight: 700;
+}
+
+.checkout-h2{
+    margin-top: 50px;
+}
+
+.container-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: right;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.chechout-rating{
+    display: flex;
+    flex-direction: row;
 }
 
 .btn{
-    position: relative;
-    margin-top: 90px;
-    margin-left: 210px;
+    margin-top: 60px;
     border-radius: 5px;
     background-color: rgb(24, 185, 191);
     font-weight: 800;

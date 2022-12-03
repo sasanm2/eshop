@@ -1,7 +1,4 @@
-import { useState } from "react";
 import "../produce/produce.css";
-// import {useStateValue} from '../stateprovider';
-
 import { StateContext } from "../stateprovider";
 import { useContext } from "react";
 
@@ -31,7 +28,7 @@ const con1 = context.setState;
         <p>{props.title}</p>
     </div>
     <img src={props.src}/>
-    <h2 className="h2">{props.price}</h2>
+    <h2 className="h2">{props.price}تومان</h2>
     <div className="rating">{Array(props.rating).fill().map((i,id)=><p key={id}>⭐</p>)}</div>
     <button className="btn-basket" onClick={addToBasket} >اضافه کردن به سبد</button>
     </div>
