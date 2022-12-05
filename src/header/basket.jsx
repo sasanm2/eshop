@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import "./basket.css";
-// import { useStateValue } from '../stateprovider';
 import { StateContext } from "../stateprovider";
 import { useContext, useState } from "react";
 
@@ -16,10 +15,16 @@ const Basket = () => {
     navigate("/checkout");
   };
 
+  const handleSignIn = () => {
+    navigate("/login");
+  };
+
+
   return (
+  
     <>
       <nav className="nav">
-        <div className="line1">
+        <div className="line1" onClick={handleSignIn}>
           <span className="first-line">Hello Guest</span>
           <span className="secend-line">Sign In</span>
         </div>

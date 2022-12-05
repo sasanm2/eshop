@@ -3,7 +3,7 @@ import Header from "../header/header";
 import CheckoutProduce from "./CheckoutProduce";
 import Subtotal from "./subtotal";
 import { StateContext } from "../stateprovider";
-import { useContext, useState } from "react";
+import { useContext} from "react";
 
 const Checkout = () => {
   

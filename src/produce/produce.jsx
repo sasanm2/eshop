@@ -16,6 +16,7 @@ const con1 = context.setState;
                 image: props.src,
                 rating:props.rating,
                 price: props.price,
+
             }],
         })
     };
